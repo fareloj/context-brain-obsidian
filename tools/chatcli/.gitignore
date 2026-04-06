@@ -1,0 +1,6 @@
+profiles.local.yaml
+.venv/
+__pycache__/
+*.egg-info/
+dist/
+.python-version

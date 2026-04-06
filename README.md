@@ -52,6 +52,10 @@ Isso define `git config core.hooksPath .githooks`. Cada `git commit` acrescenta 
 | `refresh-inventory.sh` | Regenera [`docs/repo-inventory.md`](docs/repo-inventory.md) |
 | `check-wiki-links.sh` | Heurística para possíveis wikilinks sem arquivo `.md` correspondente |
 
+## Chat CLI (testes locais / LM Studio)
+
+Terminal multi-backend (LM Studio, OpenAI, Anthropic) em [`tools/chatcli/`](tools/chatcli/README.md) — instalação, perfis e exemplos de `--system` com arquivos do vault estão no README do próprio CLI.
+
 ## Fluxo sugerido
 
 1. Agentes leem [`_memory/progress.md`](_memory/progress.md) e [`00-index/map.md`](00-index/map.md).

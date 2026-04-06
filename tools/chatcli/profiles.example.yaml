@@ -1,0 +1,21 @@
+# Copie para profiles.local.yaml e ajuste (profiles.local.yaml não vai para o Git).
+# Modelo LM Studio: veja o id na aba do servidor ou GET http://127.0.0.1:1234/v1/models
+
+profiles:
+  lmstudio:
+    provider: openai_compat
+    base_url: http://127.0.0.1:1234/v1
+    api_key: lm-studio
+    # Substitua pelo id exibido no LM Studio ou use --model na linha de comando
+    model: local-model
+
+  openai:
+    provider: openai_compat
+    base_url: https://api.openai.com/v1
+    api_key_env: OPENAI_API_KEY
+    model: gpt-4o-mini
+
+  anthropic:
+    provider: anthropic
+    api_key_env: ANTHROPIC_API_KEY
+    model: claude-sonnet-4-20250514
