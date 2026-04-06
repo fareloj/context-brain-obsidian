@@ -1,5 +1,23 @@
-Copie APENAS a linha abaixo (nada mais). Cole no terminal. Pressione Enter. Espere terminar.
+=== PASSO 1 — só uma vez (instala o comando curto "vault-chatcli") ===
 
-bash "/media/farelokkjk/DISCO D W/backup windows antigo/AA-BACKUP SUPER IMPORTANTE!!!!/teste-claude-claudinho/chatcli.sh" --model "COLOQUE_AQUI_O_ID_DO_MODELO_LM_STUDIO"
+Copie só a linha abaixo, cole no terminal, Enter. Não cole mais nada na mesma linha.
 
-Se ainda der erro, abra este arquivo no editor, substitua COLOQUE_AQUI... pelo id real (veja no LM Studio ou: curl -s http://127.0.0.1:1234/v1/models), copie de novo só essa linha.
+bash "/media/farelokkjk/DISCO D W/backup windows antigo/AA-BACKUP SUPER IMPORTANTE!!!!/teste-claude-claudinho/criar-atalho-chatcli.sh"
+
+Se o terminal disser que não acha "vault-chatcli", rode (uma vez):
+
+  echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc && source ~/.bashrc
+
+=== PASSO 2 — sempre (comando CURTO, sem caminho com espaço) ===
+
+Digite à mão ou copie só esta linha:
+
+vault-chatcli --model "qwen3.5-9b-claude-4.6-opus-uncensored-distilled"
+
+(Dica: não use cd nem bash no passo 2 — só vault-chatcli ...)
+
+=== Se você NÃO quiser o atalho ===
+
+Uma linha longa (caminho inteiro entre aspas):
+
+bash "/media/farelokkjk/DISCO D W/backup windows antigo/AA-BACKUP SUPER IMPORTANTE!!!!/teste-claude-claudinho/chatcli.sh" --model "qwen3.5-9b-claude-4.6-opus-uncensored-distilled"
