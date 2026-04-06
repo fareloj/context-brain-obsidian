@@ -14,7 +14,7 @@ O Claude Code usa [`CLAUDE.md`](CLAUDE.md) como instruções do projeto. Leia ta
 
 1. Instale o [Obsidian](https://obsidian.md/).
 2. **Open folder as vault** e escolha **esta pasta** (a raiz do repositório).
-3. Abra **Visualização em gráfico** (Graph view): cada nota é um nó; links `[[caminho/nota]]` viram arestas.
+3. Abra **Visualização em gráfico** (Graph view): cada nota é um nó; wikilinks entre notas viram arestas.
 4. Comece por [`00-index/map.md`](00-index/map.md) para navegar e ver o grafo crescer a partir dos hubs.
 
 A pasta [`.obsidian/`](.obsidian/) está versionada de forma mínima (`app.json`, `core-plugins.json` com **graph** e **templates**, `appearance.json`). Arquivos de workspace locais estão no [`.gitignore`](.gitignore).
