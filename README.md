@@ -21,6 +21,10 @@ A pasta [`.obsidian/`](.obsidian/) está versionada de forma mínima (`app.json`
 
 **Anexos:** novas mídias podem ir para `_memory/assets/` (configurado em `.obsidian/app.json`).
 
+**Grafo:** o [`.obsidian/graph.json`](.obsidian/graph.json) vem com filtro de busca que **oculta** pastas `tools/` e `scripts/` (menos ruído técnico). Ajuste no próprio Graph view se quiser ver tudo.
+
+**Templates (plugin core «Templates»):** em Ajustes do Obsidian, defina a pasta de modelos como [`templates/`](templates/) e use [`templates/sessao-vault.md`](templates/sessao-vault.md) (variáveis `{{date:YYYY-MM-DD}}` do plugin nativo).
+
 ## Git e hooks
 
 Este vault funciona melhor como **repositório Git próprio** na pasta do cérebro (assim os hooks registram commits em [`_memory/events/git-commits.md`](_memory/events/git-commits.md)).
@@ -55,6 +59,14 @@ Isso define `git config core.hooksPath .githooks`. Cada `git commit` acrescenta 
 ## Chat CLI (testes locais / LM Studio)
 
 Terminal multi-backend (LM Studio, OpenAI, Anthropic) em [`tools/chatcli/`](tools/chatcli/README.md). Para não colar comandos errados: [`COPIE-ESTA-LINHA.txt`](COPIE-ESTA-LINHA.txt). Atalho **curto** no terminal (`vault-chatcli`): rode uma vez [`criar-atalho-chatcli.sh`](criar-atalho-chatcli.sh). Também: [`chatcli.sh`](chatcli.sh), [`install-chatcli-venv.sh`](install-chatcli-venv.sh). Detalhes em [`tools/chatcli/README.md`](tools/chatcli/README.md).
+
+**Modelo padrão sem `--model`:** copie [`tools/chatcli/profiles.local.yaml.example`](tools/chatcli/profiles.local.yaml.example) para `tools/chatcli/profiles.local.yaml` e ajuste; ou `export CHATCLI_MODEL="id-do-lm-studio"` no shell.
+
+**Caminho curto no sistema:** opcional [`criar-symlink-vault.sh`](criar-symlink-vault.sh) cria `~/vault-cerebro` apontando para este repositório (útil com espaços no path).
+
+## Ritual de fim de sessão
+
+Checklist em [[CLAUDE-BRAIN]] («Encerrar sessão»). No dia a dia: atualize [`_memory/progress.md`](_memory/progress.md); para sessões longas use [`scripts/brain/new-session.sh`](scripts/brain/new-session.sh).
 
 ## Fluxo sugerido
 

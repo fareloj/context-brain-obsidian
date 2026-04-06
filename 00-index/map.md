@@ -6,6 +6,7 @@ Ponto de entrada humano e para o grafo do Obsidian. Conecte notas novas aqui par
 
 - [[CLAUDE-BRAIN]] — regras, templates, taxonomia
 - [[_memory/progress]] — estado atual (agentes leem primeiro)
+- [[00-index/estado-do-projeto]] — visão rápida do que é este vault
 - [[docs/repo-inventory]] — árvore do repositório (gerado por script)
 
 ## Domínios (00–08)

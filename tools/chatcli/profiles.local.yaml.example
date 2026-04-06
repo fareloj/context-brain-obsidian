@@ -1,0 +1,6 @@
+# Copie para profiles.local.yaml (mesma pasta). profiles.local.yaml não vai para o Git.
+# Ajuste o modelo ao id exato do LM Studio (curl http://127.0.0.1:1234/v1/models).
+
+profiles:
+  lmstudio:
+    model: qwen3.5-9b-claude-4.6-opus-uncensored-distilled

@@ -10,6 +10,7 @@ Este diretório é um **vault de conhecimento** em Markdown, pensado para **Curs
 
 ## Regras de trabalho
 
+- **Limite por turno:** abra no máximo **5 arquivos** do vault por turno, salvo se o usuário pedir explicitamente mais ou listar caminhos.
 - **Economize contexto**: não carregue o vault inteiro; abra só arquivos citados no mapa ou no progresso.
 - **Ao concluir** alterações relevantes: atualize [[_memory/progress]]; crie notas novas com wikilinks para os hubs.
 - **Decisões**: `_memory/decisions/` com ADR curta (modelo em [[CLAUDE-BRAIN]]).

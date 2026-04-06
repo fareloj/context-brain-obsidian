@@ -87,13 +87,16 @@ uv run python -m chatcli --help
 ## Perfis
 
 - Arquivo versionado: [`profiles.example.yaml`](profiles.example.yaml) (exemplos `lmstudio`, `openai`, `anthropic`).
-- Para ajustes locais (modelo real do LM Studio, chaves, etc.), copie e edite:
+- Para ajustes locais (modelo real do LM Studio, chaves, etc.):
 
 ```bash
-cp profiles.example.yaml profiles.local.yaml
+cp profiles.local.yaml.example profiles.local.yaml
+# edite profiles.local.yaml; ou comece de profiles.example.yaml se preferir
 ```
 
-`profiles.local.yaml` está no [`.gitignore`](.gitignore) e **não** deve ser commitado.
+Há também [`profiles.local.yaml.example`](profiles.local.yaml.example) com exemplo de id de modelo local. `profiles.local.yaml` está no [`.gitignore`](.gitignore) e **não** deve ser commitado.
+
+**Variável de ambiente:** `export CHATCLI_MODEL="id-do-modelo"` evita passar `--model` toda vez (o [`chatcli.sh`](../../chatcli.sh) da raiz do vault repassa isso).
 
 ### Chaves de API
 
@@ -121,6 +124,18 @@ python3 -m chatcli --profile lmstudio --system ../../AGENTS.md
 python3 -m chatcli --profile openai
 python3 -m chatcli --profile anthropic
 python3 -m chatcli --profile lmstudio --no-stream
+```
+
+### Uma pergunta só (script / redirecionar saída)
+
+`--prompt` envia uma única mensagem, imprime a resposta e **encerra** (sem REPL). `--context` / `-c` pode repetir: conteúdo dos arquivos entra antes da pergunta (no REPL, só na **primeira** mensagem da sessão).
+
+```bash
+python3 -m chatcli --profile lmstudio --system ../../AGENTS.md \
+  -c ../../_memory/progress.md -c ../../00-index/map.md \
+  --prompt "Resuma o estado do vault em 5 linhas."
+
+python3 -m chatcli --profile lmstudio --prompt "Oi" --no-stream > /tmp/out.txt
 ```
 
 Caminhos em `--system` podem ser absolutos ou relativos ao diretório de onde você rodou o comando. Exemplos a partir de `tools/chatcli`:

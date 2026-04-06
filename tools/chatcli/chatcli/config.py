@@ -101,3 +101,18 @@ def read_system_prompt(path_str: str | None) -> str | None:
     if not path.is_file():
         raise FileNotFoundError(f"Arquivo de system prompt não encontrado: {path}")
     return path.read_text(encoding="utf-8")
+
+
+def read_context_files(paths: list[str]) -> str:
+    """Concatena arquivos para prefixar a primeira mensagem (ou --prompt)."""
+    if not paths:
+        return ""
+    chunks: list[str] = []
+    for raw in paths:
+        path = Path(raw).expanduser()
+        if not path.is_file():
+            raise FileNotFoundError(f"Contexto: arquivo não encontrado: {path}")
+        label = str(path)
+        body = path.read_text(encoding="utf-8")
+        chunks.append(f"### {label}\n\n{body}")
+    return "\n\n---\n\n".join(chunks)
