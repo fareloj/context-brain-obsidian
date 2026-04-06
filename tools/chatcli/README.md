@@ -2,6 +2,8 @@
 
 Terminal interativo para conversar com modelos via **LM Studio** (API compatível com OpenAI), **OpenAI** ou **Anthropic**, com streaming e prompt de sistema opcional (útil para testar o vault com `AGENTS.md` ou `CLAUDE-BRAIN.md`).
 
+**Se você cola vários comandos e o terminal “embaralha” tudo:** use o script na raiz do vault [`chatcli.sh`](../chatcli.sh) — **uma linha só** — ou abra o arquivo [`COPIE-ESTA-LINHA.txt`](../COPIE-ESTA-LINHA.txt), edite o id do modelo, copie **apenas** essa linha e cole no terminal.
+
 ## Requisitos
 
 - Python **3.10+**

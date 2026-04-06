@@ -1,0 +1,5 @@
+Copie APENAS a linha abaixo (nada mais). Cole no terminal. Pressione Enter. Espere terminar.
+
+bash "/media/farelokkjk/DISCO D W/backup windows antigo/AA-BACKUP SUPER IMPORTANTE!!!!/teste-claude-claudinho/chatcli.sh" --model "COLOQUE_AQUI_O_ID_DO_MODELO_LM_STUDIO"
+
+Se ainda der erro, abra este arquivo no editor, substitua COLOQUE_AQUI... pelo id real (veja no LM Studio ou: curl -s http://127.0.0.1:1234/v1/models), copie de novo só essa linha.
