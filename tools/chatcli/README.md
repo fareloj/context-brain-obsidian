@@ -13,6 +13,27 @@ sudo apt install python3.12-venv python3-pip
 
 Sem isso, `python3 -m venv` falha com *ensurepip is not available*.
 
+## Atenção ao copiar comandos
+
+Cole **um comando por vez** (Enter entre eles). Se você colar `sudo apt ...` e `cd "..."` na mesma linha, o texto do `apt` pode **entrar dentro das aspas** do `cd` e o caminho vira lixo (ex.: `...IMPORTANTEsudo apt...`). Nesse caso, apague a linha e use a **Opção raiz** abaixo, com **um único** `bash`.
+
+## Uma linha só (menos erro de colagem)
+
+Na **raiz do vault** existe [`install-chatcli-venv.sh`](../install-chatcli-venv.sh). Rode **só isto** (troque pelo seu caminho real):
+
+```bash
+bash "/media/farelokkjk/DISCO D W/backup windows antigo/AA-BACKUP SUPER IMPORTANTE!!!!/teste-claude-claudinho/install-chatcli-venv.sh"
+```
+
+Depois:
+
+```bash
+source "/media/farelokkjk/DISCO D W/backup windows antigo/AA-BACKUP SUPER IMPORTANTE!!!!/teste-claude-claudinho/tools/chatcli/.venv/bin/activate"
+python3 -m chatcli --profile lmstudio --model "ID_DO_MODELO" --system "/media/farelokkjk/DISCO D W/backup windows antigo/AA-BACKUP SUPER IMPORTANTE!!!!/teste-claude-claudinho/AGENTS.md"
+```
+
+Usar **`--system` com caminho absoluto** evita depender de em qual pasta você está.
+
 ## Onde está a pasta `tools/chatcli`
 
 Ela fica **dentro do repositório do vault**, não no seu `$HOME`. Exemplo (ajuste o caminho se o seu for outro):
@@ -55,6 +76,7 @@ uv run python -m chatcli --help
 
 | Mensagem | O que fazer |
 |----------|-------------|
+| `cd: ... No such file or directory` (caminho com `sudo` no meio) | Você colou comandos juntos. Use o script de **uma linha** `bash ".../install-chatcli-venv.sh"` ou `cd` **só** com o path entre aspas. |
 | `cd: tools/chatcli: No such file or directory` | Entre na pasta do vault com `cd` e só então `cd tools/chatcli`, ou use caminho absoluto. |
 | `ensurepip is not available` | `sudo apt install python3.12-venv` (veja sua versão do Python). |
 | `externally-managed-environment` | Não use `pip` no Python do sistema; use **venv** (`.venv` dentro de `tools/chatcli`) ou `uv`. |

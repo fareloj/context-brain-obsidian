@@ -54,7 +54,7 @@ Isso define `git config core.hooksPath .githooks`. Cada `git commit` acrescenta 
 
 ## Chat CLI (testes locais / LM Studio)
 
-Terminal multi-backend (LM Studio, OpenAI, Anthropic) em [`tools/chatcli/`](tools/chatcli/README.md). No Ubuntu: instale `python3-venv`, use **`python3`** (não `python`) e entre na pasta com **caminho completo** até o vault — ou rode `bash tools/chatcli/install-venv.sh` a partir da raiz do repositório.
+Terminal multi-backend (LM Studio, OpenAI, Anthropic) em [`tools/chatcli/`](tools/chatcli/README.md). Instalação com **um comando** (evita colar `cd` e `sudo` na mesma linha): [`install-chatcli-venv.sh`](install-chatcli-venv.sh). Detalhes e `--system` com caminho absoluto em [`tools/chatcli/README.md`](tools/chatcli/README.md).
 
 ## Fluxo sugerido
 
