@@ -1,0 +1,13 @@
+{
+  "legacyEditor": false,
+  "livePreview": true,
+  "showIndentGuide": true,
+  "strictLineBreaks": false,
+  "readableLineLength": true,
+  "newFileLocation": "folder",
+  "useTab": false,
+  "tabSize": 2,
+  "showLineNumber": false,
+  "attachmentFolderPath": "./_memory/assets",
+  "alwaysUpdateLinks": true
+}

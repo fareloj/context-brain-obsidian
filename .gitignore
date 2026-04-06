@@ -1,0 +1,9 @@
+# Estado local do Obsidian (opcional — pode versionar se quiser layout fixo)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Dependências comuns (se o vault virar raiz de app depois)
+node_modules/
+dist/
+.env
+.env.*
