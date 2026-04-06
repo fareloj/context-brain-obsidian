@@ -1,6 +1,6 @@
 # Inventário do repositório
 
-> Gerado automaticamente em 2026-04-06T20:02:39-03:00 — rode `scripts/brain/refresh-inventory.sh` para atualizar.
+> Gerado automaticamente em 2026-04-06T20:03:11-03:00 — rode `scripts/brain/refresh-inventory.sh` para atualizar.
 
 ```
 .githooks/post-commit
@@ -20,6 +20,8 @@
 AGENTS.md
 CLAUDE-BRAIN.md
 CLAUDE.md
+README.md
+_memory/assets/.gitkeep
 _memory/decisions/.gitkeep
 _memory/events/git-commits.md
 _memory/progress.md
