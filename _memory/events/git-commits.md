@@ -134,3 +134,35 @@ tools/chatcli/chatcli/repl.py
 tools/chatcli/profiles.local.yaml.example
 ```
 
+### 2026-04-06 21:30:40 -0300 — `21c626a` — feat: roadmap vault (memória, hooks, health-check, onboarding)
+**Autor:** IA Brain Vault
+
+```
+.cursor/rules/memoria-rascunho.mdc
+.githooks/pre-commit
+.obsidian/graph.json
+00-index/map.md
+AGENTS.md
+CLAUDE.md
+ONBOARDING.md
+README.md
+Untitled.base
+_memory/events/git-commits.md
+_memory/sessions/2026-04-06-2103-assunto-da-sessao.md
+_memory/sessions/_draft-20260406-211021.md
+_memory/sessions/_draft-20260406-211156.md
+_memory/sessions/_draft-20260406-212045.md
+_memory/sessions/_draft-20260406-212415.md
+_memory/sessions/index.md
+docs/repo-inventory.md
+scripts/brain/_memory-draft-lib.sh
+scripts/brain/check-wiki-links.sh
+scripts/brain/health-check.sh
+scripts/brain/install-git-alias.sh
+scripts/brain/install-hooks.sh
+scripts/brain/memory-draft.sh
+scripts/brain/memory-narrate.sh
+scripts/brain/memory-snapshot.sh
+scripts/brain/refresh-sessions-index.sh
+```
+
