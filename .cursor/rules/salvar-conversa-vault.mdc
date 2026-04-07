@@ -1,0 +1,39 @@
+---
+description: Salvar ou revisar conversa como nota .md no vault (pastas 01–08 ou sessões)
+alwaysApply: true
+---
+
+# Salvar conversa no vault
+
+Quando o utilizador pedir para **rever a conversa**, **salvar a conversa**, **exportar para o Obsidian**, **gravar o essencial**, **contexto no limite** / **pouco contexto** / **compacta e salva**:
+
+1. **Criar um ficheiro `.md`** no repositório (não só texto no chat), com o template abaixo, salvo que o utilizador peça explicitamente só rascunho no chat.
+2. **Escolher a pasta** `01-architecture/` … `08-team/` segundo a tabela «Quando criar uma nota nova» em `CLAUDE-BRAIN.md` (API/schema → `02-backend` ou `04-flows`, runbook → `05-operations`, etc.). Se for só registo de sessão sem domínio claro, usar `_memory/sessions/` com frontmatter adequado.
+3. **Nome:** `YYYY-MM-DD-slug-curto.md` ou `conversa-YYYY-MM-DD-slug.md` em `kebab-case`.
+4. **Wikilinks mínimos:** `[[00-index/map]]` e o `README` do domínio (ex. `[[01-architecture/README]]`). Garantir que os alvos existem ou criá-los na mesma sessão de edição (o pre-commit pode bloquear links órfãos nos `.md` staged).
+5. **Compactar** após gravar: na resposta, **3–6 linhas** de continuidade + **caminho do ficheiro criado** + próximo passo sugerido — não repetir a conversa inteira.
+
+**Limite técnico:** não existe API fiável de «percentagem de contexto» no Cursor; usar os **gatilhos em linguagem natural** acima ou **oferecer** salvar após muitas trocas densas, se o utilizador não pediu ainda.
+
+### Template da nota
+
+```markdown
+# Título curto
+
+**Tipo:** resumo-de-conversa | revisão-assistida
+**Data:** YYYY-MM-DD
+**Domínio:** NN-nome (caminho relativo)
+
+## Resumo (5–10 linhas)
+
+## Decisões / conclusões
+
+## Itens acionáveis
+
+## Referências importantes (sem colar a conversa inteira)
+
+## Links
+
+- [[00-index/map]]
+- [[NN-dominio/README]]
+```

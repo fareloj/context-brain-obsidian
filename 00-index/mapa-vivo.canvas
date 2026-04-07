@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"hub-map","type":"file","file":"00-index/map.md","x":-520,"y":-120,"width":400,"height":320},
+		{"id":"hub-brain","type":"file","file":"CLAUDE-BRAIN.md","x":-80,"y":-120,"width":400,"height":320},
+		{"id":"hub-progress","type":"file","file":"_memory/progress.md","x":360,"y":-120,"width":380,"height":280},
+		{"id":"d01","type":"file","file":"01-architecture/README.md","x":-520,"y":260,"width":220,"height":180},
+		{"id":"d02","type":"file","file":"02-backend/README.md","x":-280,"y":260,"width":220,"height":180},
+		{"id":"d03","type":"file","file":"03-frontend/README.md","x":-40,"y":260,"width":220,"height":180},
+		{"id":"d04","type":"file","file":"04-flows/README.md","x":200,"y":260,"width":220,"height":180},
+		{"id":"d05","type":"file","file":"05-operations/README.md","x":-520,"y":480,"width":220,"height":180},
+		{"id":"d06","type":"file","file":"06-guidelines/README.md","x":-280,"y":480,"width":220,"height":180},
+		{"id":"d07","type":"file","file":"07-product/README.md","x":-40,"y":480,"width":220,"height":180},
+		{"id":"d08","type":"file","file":"08-team/README.md","x":200,"y":480,"width":220,"height":180},
+		{"id":"doc-3d","type":"file","file":"docs/obsidian-grafo-3d.md","x":440,"y":200,"width":320,"height":200}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"hub-map","fromSide":"bottom","toNode":"d01","toSide":"top"},
+		{"id":"e2","fromNode":"hub-map","fromSide":"bottom","toNode":"d02","toSide":"top"},
+		{"id":"e3","fromNode":"hub-map","fromSide":"bottom","toNode":"d03","toSide":"top"},
+		{"id":"e4","fromNode":"hub-map","fromSide":"bottom","toNode":"d04","toSide":"top"},
+		{"id":"e5","fromNode":"hub-brain","fromSide":"bottom","toNode":"d05","toSide":"top"},
+		{"id":"e6","fromNode":"hub-brain","fromSide":"bottom","toNode":"d06","toSide":"top"},
+		{"id":"e7","fromNode":"hub-brain","fromSide":"bottom","toNode":"d07","toSide":"top"},
+		{"id":"e8","fromNode":"hub-brain","fromSide":"bottom","toNode":"d08","toSide":"top"}
+	]
+}

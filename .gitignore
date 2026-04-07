@@ -7,3 +7,12 @@ node_modules/
 dist/
 .env
 .env.*
+
+# Plugins Obsidian (reinstalar pela loja; lista em .obsidian/community-plugins.json)
+.obsidian/plugins/
+
+# Rascunhos locais do Obsidian
+Untitled*.canvas
+Untitled*.base
+Untitled *.canvas
+Untitled *.base

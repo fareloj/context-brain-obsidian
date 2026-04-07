@@ -1,0 +1,670 @@
+{
+  "generated_by": "scripts/brain/export-graph-json.sh",
+  "vault_root": "/media/farelokkjk/DISCO D W/backup windows antigo/AA-BACKUP SUPER IMPORTANTE!!!!/teste-claude-claudinho",
+  "node_count": 30,
+  "edge_count": 135,
+  "nodes": [
+    {
+      "id": "00-index/dashboard.md",
+      "path": "00-index/dashboard.md"
+    },
+    {
+      "id": "00-index/estado-do-projeto.md",
+      "path": "00-index/estado-do-projeto.md"
+    },
+    {
+      "id": "00-index/map.md",
+      "path": "00-index/map.md"
+    },
+    {
+      "id": "01-architecture/README.md",
+      "path": "01-architecture/README.md"
+    },
+    {
+      "id": "02-backend/README.md",
+      "path": "02-backend/README.md"
+    },
+    {
+      "id": "03-frontend/README.md",
+      "path": "03-frontend/README.md"
+    },
+    {
+      "id": "04-flows/README.md",
+      "path": "04-flows/README.md"
+    },
+    {
+      "id": "05-operations/README.md",
+      "path": "05-operations/README.md"
+    },
+    {
+      "id": "06-guidelines/README.md",
+      "path": "06-guidelines/README.md"
+    },
+    {
+      "id": "07-product/README.md",
+      "path": "07-product/README.md"
+    },
+    {
+      "id": "08-team/README.md",
+      "path": "08-team/README.md"
+    },
+    {
+      "id": "AGENTS.md",
+      "path": "AGENTS.md"
+    },
+    {
+      "id": "CLAUDE-BRAIN.md",
+      "path": "CLAUDE-BRAIN.md"
+    },
+    {
+      "id": "CLAUDE.md",
+      "path": "CLAUDE.md"
+    },
+    {
+      "id": "ONBOARDING.md",
+      "path": "ONBOARDING.md"
+    },
+    {
+      "id": "README.md",
+      "path": "README.md"
+    },
+    {
+      "id": "_memory/events/git-commits.md",
+      "path": "_memory/events/git-commits.md"
+    },
+    {
+      "id": "_memory/progress.md",
+      "path": "_memory/progress.md"
+    },
+    {
+      "id": "_memory/sessions/2026-04-06-2103-assunto-da-sessao.md",
+      "path": "_memory/sessions/2026-04-06-2103-assunto-da-sessao.md"
+    },
+    {
+      "id": "_memory/sessions/2026-04-07-entrega-vault-ux-grafo-push.md",
+      "path": "_memory/sessions/2026-04-07-entrega-vault-ux-grafo-push.md"
+    },
+    {
+      "id": "_memory/sessions/_draft-20260406-211021.md",
+      "path": "_memory/sessions/_draft-20260406-211021.md"
+    },
+    {
+      "id": "_memory/sessions/_draft-20260406-211156.md",
+      "path": "_memory/sessions/_draft-20260406-211156.md"
+    },
+    {
+      "id": "_memory/sessions/_draft-20260406-212045.md",
+      "path": "_memory/sessions/_draft-20260406-212045.md"
+    },
+    {
+      "id": "_memory/sessions/_draft-20260406-212415.md",
+      "path": "_memory/sessions/_draft-20260406-212415.md"
+    },
+    {
+      "id": "_memory/sessions/index.md",
+      "path": "_memory/sessions/index.md"
+    },
+    {
+      "id": "docs/graph-viewer-web.md",
+      "path": "docs/graph-viewer-web.md"
+    },
+    {
+      "id": "docs/obsidian-grafo-3d.md",
+      "path": "docs/obsidian-grafo-3d.md"
+    },
+    {
+      "id": "docs/repo-inventory.md",
+      "path": "docs/repo-inventory.md"
+    },
+    {
+      "id": "templates/sessao-vault.md",
+      "path": "templates/sessao-vault.md"
+    },
+    {
+      "id": "tools/chatcli/README.md",
+      "path": "tools/chatcli/README.md"
+    }
+  ],
+  "edges": [
+    {
+      "source": "README.md",
+      "target": "_memory/progress.md"
+    },
+    {
+      "source": "README.md",
+      "target": "00-index/map.md"
+    },
+    {
+      "source": "README.md",
+      "target": "CLAUDE-BRAIN.md"
+    },
+    {
+      "source": "CLAUDE.md",
+      "target": "CLAUDE-BRAIN.md"
+    },
+    {
+      "source": "CLAUDE.md",
+      "target": "_memory/progress.md"
+    },
+    {
+      "source": "CLAUDE.md",
+      "target": "00-index/map.md"
+    },
+    {
+      "source": "CLAUDE.md",
+      "target": "ONBOARDING.md"
+    },
+    {
+      "source": "CLAUDE.md",
+      "target": "_memory/progress.md"
+    },
+    {
+      "source": "CLAUDE.md",
+      "target": "CLAUDE-BRAIN.md"
+    },
+    {
+      "source": "CLAUDE.md",
+      "target": "CLAUDE-BRAIN.md"
+    },
+    {
+      "source": "CLAUDE.md",
+      "target": "00-index/map.md"
+    },
+    {
+      "source": "CLAUDE.md",
+      "target": "ONBOARDING.md"
+    },
+    {
+      "source": "CLAUDE.md",
+      "target": "CLAUDE-BRAIN.md"
+    },
+    {
+      "source": "CLAUDE.md",
+      "target": "_memory/progress.md"
+    },
+    {
+      "source": "CLAUDE.md",
+      "target": "00-index/map.md"
+    },
+    {
+      "source": "CLAUDE.md",
+      "target": "docs/repo-inventory.md"
+    },
+    {
+      "source": "AGENTS.md",
+      "target": "CLAUDE-BRAIN.md"
+    },
+    {
+      "source": "AGENTS.md",
+      "target": "_memory/progress.md"
+    },
+    {
+      "source": "AGENTS.md",
+      "target": "00-index/map.md"
+    },
+    {
+      "source": "AGENTS.md",
+      "target": "ONBOARDING.md"
+    },
+    {
+      "source": "AGENTS.md",
+      "target": "_memory/progress.md"
+    },
+    {
+      "source": "AGENTS.md",
+      "target": "CLAUDE-BRAIN.md"
+    },
+    {
+      "source": "AGENTS.md",
+      "target": "CLAUDE-BRAIN.md"
+    },
+    {
+      "source": "AGENTS.md",
+      "target": "00-index/map.md"
+    },
+    {
+      "source": "AGENTS.md",
+      "target": "ONBOARDING.md"
+    },
+    {
+      "source": "AGENTS.md",
+      "target": "CLAUDE-BRAIN.md"
+    },
+    {
+      "source": "AGENTS.md",
+      "target": "_memory/progress.md"
+    },
+    {
+      "source": "AGENTS.md",
+      "target": "00-index/map.md"
+    },
+    {
+      "source": "AGENTS.md",
+      "target": "docs/repo-inventory.md"
+    },
+    {
+      "source": "CLAUDE-BRAIN.md",
+      "target": "_memory/progress.md"
+    },
+    {
+      "source": "CLAUDE-BRAIN.md",
+      "target": "00-index/map.md"
+    },
+    {
+      "source": "CLAUDE-BRAIN.md",
+      "target": "docs/repo-inventory.md"
+    },
+    {
+      "source": "CLAUDE-BRAIN.md",
+      "target": "_memory/progress.md"
+    },
+    {
+      "source": "CLAUDE-BRAIN.md",
+      "target": "_memory/progress.md"
+    },
+    {
+      "source": "CLAUDE-BRAIN.md",
+      "target": "00-index/map.md"
+    },
+    {
+      "source": "CLAUDE-BRAIN.md",
+      "target": "01-architecture/README.md"
+    },
+    {
+      "source": "CLAUDE-BRAIN.md",
+      "target": "docs/repo-inventory.md"
+    },
+    {
+      "source": "CLAUDE-BRAIN.md",
+      "target": "_memory/events/git-commits.md"
+    },
+    {
+      "source": "CLAUDE-BRAIN.md",
+      "target": "00-index/map.md"
+    },
+    {
+      "source": "CLAUDE-BRAIN.md",
+      "target": "01-architecture/README.md"
+    },
+    {
+      "source": "CLAUDE-BRAIN.md",
+      "target": "02-backend/README.md"
+    },
+    {
+      "source": "CLAUDE-BRAIN.md",
+      "target": "04-flows/README.md"
+    },
+    {
+      "source": "CLAUDE-BRAIN.md",
+      "target": "_memory/events/git-commits.md"
+    },
+    {
+      "source": "CLAUDE-BRAIN.md",
+      "target": "docs/repo-inventory.md"
+    },
+    {
+      "source": "_memory/progress.md",
+      "target": "_memory/sessions/2026-04-07-entrega-vault-ux-grafo-push.md"
+    },
+    {
+      "source": "_memory/progress.md",
+      "target": "00-index/map.md"
+    },
+    {
+      "source": "_memory/progress.md",
+      "target": "CLAUDE-BRAIN.md"
+    },
+    {
+      "source": "_memory/progress.md",
+      "target": "docs/obsidian-grafo-3d.md"
+    },
+    {
+      "source": "06-guidelines/README.md",
+      "target": "00-index/map.md"
+    },
+    {
+      "source": "06-guidelines/README.md",
+      "target": "CLAUDE-BRAIN.md"
+    },
+    {
+      "source": "06-guidelines/README.md",
+      "target": "05-operations/README.md"
+    },
+    {
+      "source": "06-guidelines/README.md",
+      "target": "08-team/README.md"
+    },
+    {
+      "source": "07-product/README.md",
+      "target": "00-index/map.md"
+    },
+    {
+      "source": "07-product/README.md",
+      "target": "CLAUDE-BRAIN.md"
+    },
+    {
+      "source": "07-product/README.md",
+      "target": "04-flows/README.md"
+    },
+    {
+      "source": "07-product/README.md",
+      "target": "08-team/README.md"
+    },
+    {
+      "source": "01-architecture/README.md",
+      "target": "00-index/map.md"
+    },
+    {
+      "source": "01-architecture/README.md",
+      "target": "CLAUDE-BRAIN.md"
+    },
+    {
+      "source": "01-architecture/README.md",
+      "target": "02-backend/README.md"
+    },
+    {
+      "source": "01-architecture/README.md",
+      "target": "03-frontend/README.md"
+    },
+    {
+      "source": "01-architecture/README.md",
+      "target": "04-flows/README.md"
+    },
+    {
+      "source": "08-team/README.md",
+      "target": "00-index/map.md"
+    },
+    {
+      "source": "08-team/README.md",
+      "target": "CLAUDE-BRAIN.md"
+    },
+    {
+      "source": "08-team/README.md",
+      "target": "06-guidelines/README.md"
+    },
+    {
+      "source": "08-team/README.md",
+      "target": "07-product/README.md"
+    },
+    {
+      "source": "docs/repo-inventory.md",
+      "target": "00-index/map.md"
+    },
+    {
+      "source": "docs/repo-inventory.md",
+      "target": "CLAUDE-BRAIN.md"
+    },
+    {
+      "source": "docs/obsidian-grafo-3d.md",
+      "target": "00-index/map.md"
+    },
+    {
+      "source": "templates/sessao-vault.md",
+      "target": "00-index/map.md"
+    },
+    {
+      "source": "templates/sessao-vault.md",
+      "target": "_memory/progress.md"
+    },
+    {
+      "source": "templates/sessao-vault.md",
+      "target": "CLAUDE-BRAIN.md"
+    },
+    {
+      "source": "02-backend/README.md",
+      "target": "00-index/map.md"
+    },
+    {
+      "source": "02-backend/README.md",
+      "target": "CLAUDE-BRAIN.md"
+    },
+    {
+      "source": "02-backend/README.md",
+      "target": "01-architecture/README.md"
+    },
+    {
+      "source": "02-backend/README.md",
+      "target": "04-flows/README.md"
+    },
+    {
+      "source": "02-backend/README.md",
+      "target": "05-operations/README.md"
+    },
+    {
+      "source": "00-index/estado-do-projeto.md",
+      "target": "CLAUDE-BRAIN.md"
+    },
+    {
+      "source": "00-index/estado-do-projeto.md",
+      "target": "CLAUDE.md"
+    },
+    {
+      "source": "00-index/estado-do-projeto.md",
+      "target": "AGENTS.md"
+    },
+    {
+      "source": "00-index/estado-do-projeto.md",
+      "target": "_memory/events/git-commits.md"
+    },
+    {
+      "source": "00-index/estado-do-projeto.md",
+      "target": "_memory/progress.md"
+    },
+    {
+      "source": "00-index/estado-do-projeto.md",
+      "target": "00-index/map.md"
+    },
+    {
+      "source": "00-index/estado-do-projeto.md",
+      "target": "00-index/map.md"
+    },
+    {
+      "source": "00-index/estado-do-projeto.md",
+      "target": "CLAUDE-BRAIN.md"
+    },
+    {
+      "source": "00-index/dashboard.md",
+      "target": "00-index/map.md"
+    },
+    {
+      "source": "00-index/map.md",
+      "target": "README.md"
+    },
+    {
+      "source": "00-index/map.md",
+      "target": "ONBOARDING.md"
+    },
+    {
+      "source": "00-index/map.md",
+      "target": "CLAUDE-BRAIN.md"
+    },
+    {
+      "source": "00-index/map.md",
+      "target": "_memory/progress.md"
+    },
+    {
+      "source": "00-index/map.md",
+      "target": "00-index/estado-do-projeto.md"
+    },
+    {
+      "source": "00-index/map.md",
+      "target": "docs/repo-inventory.md"
+    },
+    {
+      "source": "00-index/map.md",
+      "target": "01-architecture/README.md"
+    },
+    {
+      "source": "00-index/map.md",
+      "target": "02-backend/README.md"
+    },
+    {
+      "source": "00-index/map.md",
+      "target": "03-frontend/README.md"
+    },
+    {
+      "source": "00-index/map.md",
+      "target": "04-flows/README.md"
+    },
+    {
+      "source": "00-index/map.md",
+      "target": "05-operations/README.md"
+    },
+    {
+      "source": "00-index/map.md",
+      "target": "06-guidelines/README.md"
+    },
+    {
+      "source": "00-index/map.md",
+      "target": "07-product/README.md"
+    },
+    {
+      "source": "00-index/map.md",
+      "target": "08-team/README.md"
+    },
+    {
+      "source": "00-index/map.md",
+      "target": "ONBOARDING.md"
+    },
+    {
+      "source": "00-index/map.md",
+      "target": "_memory/sessions/index.md"
+    },
+    {
+      "source": "00-index/map.md",
+      "target": "docs/repo-inventory.md"
+    },
+    {
+      "source": "00-index/map.md",
+      "target": "00-index/dashboard.md"
+    },
+    {
+      "source": "00-index/map.md",
+      "target": "docs/obsidian-grafo-3d.md"
+    },
+    {
+      "source": "00-index/map.md",
+      "target": "docs/graph-viewer-web.md"
+    },
+    {
+      "source": "05-operations/README.md",
+      "target": "00-index/map.md"
+    },
+    {
+      "source": "05-operations/README.md",
+      "target": "CLAUDE-BRAIN.md"
+    },
+    {
+      "source": "05-operations/README.md",
+      "target": "02-backend/README.md"
+    },
+    {
+      "source": "05-operations/README.md",
+      "target": "04-flows/README.md"
+    },
+    {
+      "source": "05-operations/README.md",
+      "target": "06-guidelines/README.md"
+    },
+    {
+      "source": "03-frontend/README.md",
+      "target": "00-index/map.md"
+    },
+    {
+      "source": "03-frontend/README.md",
+      "target": "CLAUDE-BRAIN.md"
+    },
+    {
+      "source": "03-frontend/README.md",
+      "target": "01-architecture/README.md"
+    },
+    {
+      "source": "03-frontend/README.md",
+      "target": "04-flows/README.md"
+    },
+    {
+      "source": "04-flows/README.md",
+      "target": "00-index/map.md"
+    },
+    {
+      "source": "04-flows/README.md",
+      "target": "CLAUDE-BRAIN.md"
+    },
+    {
+      "source": "04-flows/README.md",
+      "target": "02-backend/README.md"
+    },
+    {
+      "source": "04-flows/README.md",
+      "target": "03-frontend/README.md"
+    },
+    {
+      "source": "04-flows/README.md",
+      "target": "05-operations/README.md"
+    },
+    {
+      "source": "_memory/sessions/_draft-20260406-211156.md",
+      "target": "00-index/map.md"
+    },
+    {
+      "source": "_memory/sessions/_draft-20260406-211156.md",
+      "target": "_memory/progress.md"
+    },
+    {
+      "source": "_memory/sessions/_draft-20260406-212045.md",
+      "target": "00-index/map.md"
+    },
+    {
+      "source": "_memory/sessions/_draft-20260406-212045.md",
+      "target": "00-index/map.md"
+    },
+    {
+      "source": "_memory/sessions/2026-04-07-entrega-vault-ux-grafo-push.md",
+      "target": "00-index/map.md"
+    },
+    {
+      "source": "_memory/sessions/2026-04-07-entrega-vault-ux-grafo-push.md",
+      "target": "docs/obsidian-grafo-3d.md"
+    },
+    {
+      "source": "_memory/sessions/_draft-20260406-211021.md",
+      "target": "00-index/map.md"
+    },
+    {
+      "source": "_memory/sessions/_draft-20260406-211021.md",
+      "target": "00-index/map.md"
+    },
+    {
+      "source": "_memory/sessions/index.md",
+      "target": "_memory/sessions/2026-04-06-2103-assunto-da-sessao.md"
+    },
+    {
+      "source": "_memory/sessions/index.md",
+      "target": "_memory/sessions/_draft-20260406-211021.md"
+    },
+    {
+      "source": "_memory/sessions/index.md",
+      "target": "_memory/sessions/_draft-20260406-211156.md"
+    },
+    {
+      "source": "_memory/sessions/index.md",
+      "target": "_memory/sessions/_draft-20260406-212045.md"
+    },
+    {
+      "source": "_memory/sessions/_draft-20260406-212415.md",
+      "target": "00-index/map.md"
+    },
+    {
+      "source": "_memory/sessions/2026-04-06-2103-assunto-da-sessao.md",
+      "target": "00-index/map.md"
+    },
+    {
+      "source": "_memory/sessions/2026-04-06-2103-assunto-da-sessao.md",
+      "target": "_memory/progress.md"
+    },
+    {
+      "source": "_memory/sessions/2026-04-06-2103-assunto-da-sessao.md",
+      "target": "CLAUDE-BRAIN.md"
+    }
+  ]
+}

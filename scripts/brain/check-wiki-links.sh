@@ -52,7 +52,7 @@ check_one_file() {
     base="${raw%%|*}"
     base="${base%%#*}"
     base="${base#./}"
-    if [[ -f "$ROOT/$base.md" ]] || [[ -f "$ROOT/$base" ]]; then
+    if [[ -f "$ROOT/$base.md" ]] || [[ -f "$ROOT/$base" ]] || [[ -f "$ROOT/$base.canvas" ]]; then
       continue
     fi
     echo "Possível link órfão: [[$raw]] em $rel"

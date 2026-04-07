@@ -16,8 +16,12 @@ OUT="$ROOT/docs/repo-inventory.md"
     -path './.git/*' -o \
     -path '*/node_modules' -o \
     -path '*/node_modules/*' -o \
+    -path '*/.venv' -o \
+    -path '*/.venv/*' -o \
     -path './.obsidian/workspace.json' -o \
-    -path './.obsidian/workspace-mobile.json' \
+    -path './.obsidian/workspace-mobile.json' -o \
+    -path './.obsidian/plugins' -o \
+    -path './.obsidian/plugins/*' \
     \) -prune -o -type f -print | LC_ALL=C sort | sed 's|^\./||')
   echo '```'
   echo ""

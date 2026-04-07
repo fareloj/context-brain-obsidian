@@ -4,6 +4,8 @@ Ponto de entrada humano e para o grafo do Obsidian. Conecte notas novas aqui par
 
 ## Constituição e memória de trabalho
 
+- [[README]] — visão geral do vault
+- [[ONBOARDING]] — retomada rápida e frases para a IA
 - [[CLAUDE-BRAIN]] — regras, templates, taxonomia
 - [[_memory/progress]] — estado atual (agentes leem primeiro)
 - [[00-index/estado-do-projeto]] — visão rápida do que é este vault
@@ -25,6 +27,13 @@ Ponto de entrada humano e para o grafo do Obsidian. Conecte notas novas aqui par
 - [[ONBOARDING]] — instalação e retomada rápida
 - [[_memory/sessions/index]] — índice de sessões (gerado por script)
 - [[docs/repo-inventory]]
+- [[00-index/dashboard]] — painel Dataview (requer plugin Dataview)
+- [[docs/obsidian-grafo-3d]] — grafo 3D (plugins comunitários) e filtro alinhado ao Graph nativo
+- [[docs/graph-viewer-web]] — export JSON e viewer Web opcional
+
+## Canvas (mapa clicável)
+
+- [[00-index/mapa-vivo]] — canvas com hubs e domínios 01–08 (plugin **Canvas** ativo nas definições do Obsidian)
 
 ## Grafo
 
