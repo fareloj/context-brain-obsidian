@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Wikilinks órfãos apenas nos .md staged (diff-filter=ACM).
+set -euo pipefail
+ROOT="$(git rev-parse --show-toplevel)"
+mapfile -t staged < <(git -C "$ROOT" diff --cached --name-only --diff-filter=ACM)
+md_files=()
+for f in "${staged[@]}"; do
+  [[ "$f" == *.md ]] || continue
+  [[ -f "$ROOT/$f" ]] || continue
+  md_files+=("$f")
+done
+if [[ ${#md_files[@]} -eq 0 ]]; then
+  exit 0
+fi
+exec "$ROOT/scripts/brain/check-wiki-links.sh" --strict -- "${md_files[@]}"

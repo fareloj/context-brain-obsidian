@@ -1,6 +1,6 @@
 # Inventário do repositório
 
-> Gerado automaticamente em 2026-04-06T20:54:45-03:00 — rode `scripts/brain/refresh-inventory.sh` para atualizar.
+> Gerado automaticamente em 2026-04-06T21:03:10-03:00 — rode `scripts/brain/refresh-inventory.sh` para atualizar.
 
 ```
 .githooks/post-commit

@@ -108,3 +108,29 @@ README.md
 criar-atalho-chatcli.sh
 ```
 
+### 2026-04-06 20:54:49 -0300 — `05ffabc` — feat: plano vault+local — chatcli --prompt/--context, regras, Obsidian, perfil exemplo, symlink
+**Autor:** IA Brain Vault
+
+```
+.obsidian/app.json
+.obsidian/appearance.json
+.obsidian/core-plugins.json
+.obsidian/graph.json
+00-index/estado-do-projeto.md
+00-index/map.md
+AGENTS.md
+CLAUDE-BRAIN.md
+CLAUDE.md
+README.md
+_memory/events/git-commits.md
+_memory/progress.md
+criar-symlink-vault.sh
+docs/repo-inventory.md
+templates/sessao-vault.md
+tools/chatcli/README.md
+tools/chatcli/chatcli/__main__.py
+tools/chatcli/chatcli/config.py
+tools/chatcli/chatcli/repl.py
+tools/chatcli/profiles.local.yaml.example
+```
+

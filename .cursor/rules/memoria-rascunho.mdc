@@ -1,0 +1,15 @@
+---
+description: Encerramento de sessão e rascunho de memória (script memory-draft + revisão humana)
+alwaysApply: true
+---
+
+# Memória em rascunho
+
+Quando a pessoa pedir **encerrar sessão**, **salvar memória**, **rascunho de contexto** ou equivalente:
+
+1. Priorize sugerir: `bash scripts/brain/memory-draft.sh` na raiz do vault (terminal integrado). Se a pessoa quiser só Git sem IA: `memory-snapshot.sh` (e opcionalmente `memory-narrate.sh` depois).
+2. O arquivo gerado fica em `_memory/sessions/_draft-*.md`: é **rascunho**; não escreva automaticamente em `_memory/progress.md` nem substitua sessões finais sem revisão explícita da pessoa.
+3. Não afirme ter lido o conteúdo de notas que não estão no contexto anexado/aberto.
+4. Após a pessoa revisar o `_draft`, ela pode renomear (tirar `_draft-`) e, se quiser, linkar em `00-index/map.md`.
+
+Detalhes: `README.md` (secção «Memória em 1 comando»), `AGENTS.md` e `CLAUDE.md`.

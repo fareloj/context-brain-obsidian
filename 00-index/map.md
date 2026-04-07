@@ -22,6 +22,8 @@ Ponto de entrada humano e para o grafo do Obsidian. Conecte notas novas aqui par
 
 ## Documentação operacional
 
+- [[ONBOARDING]] — instalação e retomada rápida
+- [[_memory/sessions/index]] — índice de sessões (gerado por script)
 - [[docs/repo-inventory]]
 
 ## Grafo

@@ -13,7 +13,8 @@ fi
 
 chmod +x "$ROOT/scripts/brain/append-commit.sh"
 chmod +x "$ROOT/.githooks/post-commit" 2>/dev/null || true
+chmod +x "$ROOT/.githooks/pre-commit" 2>/dev/null || true
 
 git config core.hooksPath .githooks
 echo "Configurado: core.hooksPath=.githooks (raiz: $ROOT)"
-echo "Hook post-commit chamará scripts/brain/append-commit.sh"
+echo "Hooks: pre-commit (wikilinks nos .md staged) e post-commit (append em _memory/events/git-commits.md)"
